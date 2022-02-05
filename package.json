@@ -3,7 +3,7 @@
   "source": "src/index.html",
   "scripts": {
     "start": "parcel src/index.html --no-cache --port 3000",
-    "build": "parcel build"
+    "build": "parcel build --dist-dir build"
   },
   "devDependencies": {
     "@parcel/transformer-less": "^2.2.1",
