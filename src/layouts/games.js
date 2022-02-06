@@ -28,7 +28,7 @@ const data=[
 ];
 
 export default function Games({ypos, onscrollstop}) {
-    const size=100;
+    const size=400;
     const sectionref = React.createRef();
     const [style, setStyle] = React.useState('');
     const [thumbnailStyle, setThumbnailStyle] = React.useState({});
