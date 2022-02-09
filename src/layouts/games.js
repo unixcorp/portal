@@ -41,8 +41,6 @@ export default function Games({ypos, onscrollstop}) {
             bg:'',
         });
 
-    console.log();
-
     React.useEffect(() => {
         let cur=sectionref.current;
         let yInsidePos;

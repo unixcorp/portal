@@ -1,5 +1,6 @@
 import React from "react";
 import Games from "./layouts/games";
+import News from "./layouts/news";
 
 const createScrollStopListener = (element, callback, timeout) => {
   let removed = false;
@@ -87,7 +88,7 @@ return(
         <a href="#games" className="relative text-base font-medium dash-bot hover:text-amber-400 text-white">
           Games
         </a>
-        <a href="#events" className="relative text-base font-medium dash-bot hover:text-amber-400 text-white">
+        <a href="#news" className="relative text-base font-medium dash-bot hover:text-amber-400 text-white">
           Events
         </a>
         <a href="#faq" className="relative text-base font-medium dash-bot hover:text-amber-400 text-white">
@@ -130,8 +131,9 @@ return(
   </div>
 </section>
 <Games ypos={ypos} onscrollstop={onscrollstop} />
-<section className="relative" id="events">
-  <div className="min-h-screen mx-auto px-4 sm:px-6 table w-full bg-yellow-600">
+<News ypos={ypos} />
+<section className="relative" id="faq">
+  <div className="min-h-screen mx-auto px-4 sm:px-6 table w-full bg-green-600">
     
   </div>
 </section>
