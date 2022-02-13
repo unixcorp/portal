@@ -85,11 +85,11 @@ return(
         <a href="#home" className="relative text-base font-medium dash-bot hover:text-amber-400 active text-amber-400">
           Home
         </a>
-        <a href="#games" className="relative text-base font-medium dash-bot hover:text-amber-400 text-white">
-          Games
-        </a>
         <a href="#news" className="relative text-base font-medium dash-bot hover:text-amber-400 text-white">
           Events
+        </a>
+        <a href="#games" className="relative text-base font-medium dash-bot hover:text-amber-400 text-white">
+          Games
         </a>
         <a href="#faq" className="relative text-base font-medium dash-bot hover:text-amber-400 text-white">
           faq
@@ -130,10 +130,15 @@ return(
     </div>
   </div>
 </section>
-<Games ypos={ypos} onscrollstop={onscrollstop} />
 <News ypos={ypos} />
+<Games ypos={ypos} onscrollstop={onscrollstop} />
 <section className="relative" id="faq">
   <div className="min-h-screen mx-auto px-4 sm:px-6 table w-full bg-green-600">
+    
+  </div>
+</section>
+<section className="relative" id="join">
+  <div className="min-h-screen mx-auto px-4 sm:px-6 table w-full bg-gray-600">
     
   </div>
 </section>
